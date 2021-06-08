@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Josefin-Sans-Meduim';
+    src: url('./fonts/JosefinSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin-Sans-Bold';
+    src: url('./fonts/JosefinSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Muli-Regular';
+    src: url('./fonts/Muli-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('./fonts/Muli-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('./fonts/Muli-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --white: #fff;
+    --JSM: 'Josefin-Sans-Meduim';
+    --JSB: 'Josefin-Sans-Bold';
+    --MR: 'Muli-Regular';
+    --MSB: 'Muli-SemiBold';
+    --MB: 'Muli-Bold';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--MB), sans-serif;
+}
+ul, ol, li{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    overflow: hidden;
+}
+.container{
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.default-title{
+    font-size: 36px;
+    line-height: 46px;
+    font-family: var(--JSB), serif;
+    color: #1d165c;
+    margin-bottom: 16px;
+}
+/* ////////////////////////////////// */
+@media(max-width: 800px){
+    .default-title{
+        font-size: 34px;
+    }
+}
+@media(max-width: 600px){
+    .default-title{
+        font-size: 32px;
+    }
+}
+@media(max-width: 375px){
+    .default-title{
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+}

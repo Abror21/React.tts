@@ -1,0 +1,109 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?c6bfb423ed44ae28ab6ee5310ea3abb9") format("truetype"),
+url("./flaticon.woff?c6bfb423ed44ae28ab6ee5310ea3abb9") format("woff"),
+url("./flaticon.woff2?c6bfb423ed44ae28ab6ee5310ea3abb9") format("woff2"),
+url("./flaticon.eot?c6bfb423ed44ae28ab6ee5310ea3abb9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c6bfb423ed44ae28ab6ee5310ea3abb9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "checkmark": "\f101",
+    "checkmark-1": "\f102",
+    "data": "\f103",
+    "bot": "\f104",
+    "voice-control": "\f105",
+    "api": "\f106",
+    "contract": "\f107",
+    "computer": "\f108",
+    "tourist-tax": "\f109",
+    "chatbot": "\f10a",
+    "social-media": "\f10b",
+    "call-center": "\f10c",
+    "school": "\f10d",
+    "live": "\f10e",
+    "voice-message": "\f10f",
+    "envelope": "\f110",
+    "group": "\f111",
+    "right": "\f112",
+    "menu": "\f113",
+    "cancel": "\f114",
+    "up-arrow-angle": "\f115",
+);
+
+.flaticon-checkmark:before {
+    content: map-get($flaticon-map, "checkmark");
+}
+.flaticon-checkmark-1:before {
+    content: map-get($flaticon-map, "checkmark-1");
+}
+.flaticon-data:before {
+    content: map-get($flaticon-map, "data");
+}
+.flaticon-bot:before {
+    content: map-get($flaticon-map, "bot");
+}
+.flaticon-voice-control:before {
+    content: map-get($flaticon-map, "voice-control");
+}
+.flaticon-api:before {
+    content: map-get($flaticon-map, "api");
+}
+.flaticon-contract:before {
+    content: map-get($flaticon-map, "contract");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-tourist-tax:before {
+    content: map-get($flaticon-map, "tourist-tax");
+}
+.flaticon-chatbot:before {
+    content: map-get($flaticon-map, "chatbot");
+}
+.flaticon-social-media:before {
+    content: map-get($flaticon-map, "social-media");
+}
+.flaticon-call-center:before {
+    content: map-get($flaticon-map, "call-center");
+}
+.flaticon-school:before {
+    content: map-get($flaticon-map, "school");
+}
+.flaticon-live:before {
+    content: map-get($flaticon-map, "live");
+}
+.flaticon-voice-message:before {
+    content: map-get($flaticon-map, "voice-message");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-group:before {
+    content: map-get($flaticon-map, "group");
+}
+.flaticon-right:before {
+    content: map-get($flaticon-map, "right");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-cancel:before {
+    content: map-get($flaticon-map, "cancel");
+}
+.flaticon-up-arrow-angle:before {
+    content: map-get($flaticon-map, "up-arrow-angle");
+}

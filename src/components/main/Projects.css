@@ -1,0 +1,23 @@
+.projects{
+    margin-bottom: 70px;
+}
+.projects__header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.projects__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* /////////////////////// */
+@media(max-width: 800px){
+    .projects__content{
+        justify-content: space-around;
+    }
+}
+@media(max-width: 375px){
+    .projects__header{
+        margin-bottom: 0;
+    }
+}

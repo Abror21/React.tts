@@ -1,0 +1,31 @@
+.useservice{
+    margin-bottom: 125px;
+}
+.useservice__header{
+    text-align: center;
+    margin-bottom: 68px;
+}
+.useservice__content{
+    display: flex;
+    justify-content: space-between;
+}
+/* ////////////////////////////// */
+@media(min-width: 801px){
+    
+}
+/* ///////////////////////////////// */
+@media(max-width: 800px){
+    .useservice__content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .useservice__header{
+        margin-bottom: 45px;
+    }
+}
+@media(max-width: 640px){
+    .useservice{
+        margin-bottom: 70px;
+    }
+}
